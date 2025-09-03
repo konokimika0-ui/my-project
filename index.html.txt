@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>イベント情報サイト</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>イベント情報サイト</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">イベント概要</a></li>
+          <li><a href="#schedule">スケジュール</a></li>
+          <li><a href="#access">アクセス</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="container">
+      <h2>イベント概要</h2>
+      <p>2025年9月15日（月・祝） 東京国際フォーラムにて「未来のテクノロジー」をテーマにしたカンファレンスを開催します。</p>
+    </section>
+
+    <section id="schedule" class="container">
+      <h2>スケジュール</h2>
+      <ul>
+        <li>10:00 - 開場・受付開始</li>
+        <li>11:00 - 基調講演</li>
+        <li>13:00 - ワークショップ</li>
+        <li>16:00 - ネットワーキング</li>
+      </ul>
+    </section>
+
+    <section id="access" class="container">
+      <h2>アクセス</h2>
+      <p>東京国際フォーラム<br>
+      JR「有楽町駅」より徒歩1分</p>
+      <iframe src="https://maps.google.com/maps?q=東京国際フォーラム&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 イベント運営チーム</p>
+    </div>
+  </footer>
+</body>
+</html>
