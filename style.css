@@ -67,3 +67,70 @@ footer {
   padding: 1rem 0;
   margin-top: 2rem;
 }
+/* お知らせセクション */
+.notice {
+  padding: 2rem 1rem;
+  background-color: #fafafa;
+  text-align: center;
+  border-top: 1px solid #eee;
+}
+
+.notice h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+  color: #444;
+}
+
+.notice-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.2rem;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.notice-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+  color: #222;
+}
+
+.notice-card p {
+  margin: 0.3rem 0;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.notice-links {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.btn-small {
+  display: inline-block;
+  padding: 0.5rem 0.8rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: bold;
+  transition: background 0.3s;
+  background: #007bff;
+  color: #fff;
+}
+
+.btn-small:hover {
+  background: #0056b3;
+}
+
+.btn-small.secondary {
+  background: #6c757d;
+}
+
+.btn-small.secondary:hover {
+  background: #495057;
+}
+
